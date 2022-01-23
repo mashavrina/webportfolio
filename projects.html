@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/projects.css" />
+  </head>
+
+  <body>
+    <div class="nav-container">
+      <header>
+        <a href="index.html" class="logo">Masha Shavrina</a>
+
+        <nav>
+          <ul>
+            <li><a href="projects.html" class="new">Projects</a></li>
+            <li><a href="Images/Resume.png" class="resume">Resume</a></li>
+            <li>
+              <a href="mailto: mashashavrina@outlook.com" class="contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <section class="featured">
+      <div class="left">
+        <div class="inner transition 2">
+          <a href="#" class="featured-title">Flower Boutique Mobile Site</a>
+
+          <img
+            class="rewolf"
+            src="Images/Mask Group.png"
+            alt="Project Image"
+            width="550"
+            height="400"
+          />
+        </div>
+      </div>
+    </section>
+
+    <div class="project">
+      <h1 class="projectoverview">Project Overview</h1>
+      <p class="overview">
+        With hundreds of flower boutiques on the market, I was part of a team
+        wanting to launch something more modern and simple. I was assigned to
+        design a responsive website for a starting flower boutique in Toronto,
+        Ontario. The team prided itself in wanting to create something that was
+        simple yet chic, translating that into both their flower products and
+        digital presence. Due to the pandemic, the project was put on pause,
+        with user research, wireframes, and a prototype for several screens of
+        the mobile site being complete.
+      </p>
+    </div>
+
+    <div class="rsrch">
+      <h1 class="research">Research and User Flows</h1>
+      <p class="rsrchp">
+        The research began with examining other flower boutiques’ sites and
+        flows. For both the sake of inspiration, and seeing what worked well and
+        what didn’t from the perspective of a user who was seeking to purchase a
+        bouquet. Because of the competitive market, during the research stage,
+        it was vital to identify how Rewolf would stand out in the midst of
+        their competitors and how we were to make our user experience different,
+        simple, and aesthetically pleasing.
+      </p>
+      <img
+        class="userflow"
+        src="images/User Flow.png"
+        alt="User Flow"
+        width="70%"
+        height="70%"
+      />
+    </div>
+
+    <div class="wire">
+      <h1 class="wireframes">Wireframes</h1>
+      <p class="wrfms">
+        Taking into consideration the user research, and what the team was
+        seeking to have the boutique’s website look like and feel like to its’
+        users, I built several versions of pages’ interfaces, offering different
+        options of what the site could look like. Providing my team with a
+        variety of options for what the layout of the application could look
+        like allowed us to decide on the best design for Rewolf.
+      </p>
+      <img
+        class="smallwire"
+        src="Images/smol.png"
+        alt="Wireframes Image"
+        width="70%"
+        height="70%"
+      />
+      <img class="bigwire" src="Images/Horizontal.png" alt="Wireframes Image
+      Wide" width="70%" height="70%"
+    </div>
+
+    <div class="proto">
+      <h1 class="prototype">Prototype</h1>
+      <p class="pro">
+        I then began developing a high fidelity prototype for the mobile version
+        of the site. The images used are not ones that will be used by the
+        boutique, but serve as an example of what the visuals of the site would
+        look like if it were complete. Due to the project being put on pause,
+        the prototype has not been finalized, but will likely remain the
+        starting point for when the project is relaunched.
+      </p>
+    </div>
+
+    &nbsp;&nbsp;
+
+    <!--<img class="prototypes" src="Group 14.png" width="500" height="1640"
+    </div>-->
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <img src="IMages/image 13.png" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="Images/image 14.png" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="Images/image 15.png" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="Images/Size Difference.png" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="Images/Premium.png" style="width: 100%" />
+      </div>
+      <div class="mySlides fade">
+        <img src="Images/Cart.png" style="width: 100%" />
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <!-- The dots/circles -->
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+
+    <!--
+    var slideIndex = 1;
+      showSlides(slideIndex);
+
+      // Next/previous controls
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+
+
+-->
+
+    <!--
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+
+
+  
+}
+-->
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      // Next/previous controls
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+
+    &nbsp;&nbsp;
+
+    <footer>
+      <p class="copyright">&copy; 2022 Masha Shavrina</p>
+    </footer>
+  </body>
+</html>
